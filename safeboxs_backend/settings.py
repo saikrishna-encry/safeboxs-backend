@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-j%s-w6wt_hzt7@dk1pjc%d9i+n$6iuosa&+g8r3=5228qae+a=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "https://safeboxs-backend.onrender.com"
+]
 
 
 # Application definition
